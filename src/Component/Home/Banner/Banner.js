@@ -1,5 +1,6 @@
 import React from "react";
 import TypeAnimation from "react-type-animation";
+import About from "./About/About";
 import "./Banner.css";
 
 const Banner = () => {
@@ -7,7 +8,8 @@ const Banner = () => {
     <div>
       <div className="">
         <article class="usercard ">
-          <div class="usercard_body ">
+          <About></About>
+          {/* <div class="usercard_body ">
             <header class="usercard_header">
               <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png" class="usercard_user" alt="User" />
               <div class="usercard_header-info my-5 py-5">
@@ -136,8 +138,8 @@ const Banner = () => {
                   </div>
                 </div>
               </div>
-            </div> */}
-          </div>
+            </div> 
+          </div> */}
         </article>
       </div>
     </div>

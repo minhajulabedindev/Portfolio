@@ -25,7 +25,7 @@
 }
 @media screen and (max-width: 992px) {
   #welcome-section::before {
-    width: 100vh;
+    display: none;
   }
 }
 @keyframes stars-move-in {
@@ -130,20 +130,12 @@
   }
 }
 
-#welcome-section .container h1 {
+#welcome-section .container .text {
   font-size: 4rem;
   font-weight: normal;
-  font-style: italic;
+
   color: #fafafa;
   line-height: 3rem;
-}
-
-#welcome-section .container h1 .line:first-child {
-  margin-left: 1rem;
-}
-
-#welcome-section .container h1 .line:last-child {
-  margin-left: 2rem;
 }
 
 #welcome-section .container .buttons {
@@ -158,8 +150,10 @@
   border: 1px solid #fafafa;
   color: #fafafa;
   text-align: center;
+  border-radius: 10px;
   text-transform: uppercase;
   font-size: 1rem;
+  text-decoration: none;
 }
 
 #welcome-section .container .buttons a:hover,
@@ -168,7 +162,9 @@
   transform: translateY(-2px);
   box-shadow: 0 10px 100px -20px #f300b4;
 }
-
+.colors {
+  color: #f300b4 !important;
+}
 #welcome-section .container .buttons a.cta,
 #welcome-section .container .buttons a.cta:visited {
   background: #f300b4;

@@ -1,18 +1,23 @@
+.over {
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
 .flex-wrapper {
-  display: flex;
-  flex-flow: row nowrap;
+  /* display: flex; */
+
+  /* flex-flow: row nowrap; */
 }
 
 .single-chart {
-  width: 33%;
-  justify-content: space-between;
+  width: 80%;
+  /* justify-content: space-between; */
 }
 
 .circular-chart {
   display: block;
   margin: 10px auto;
   max-width: 60%;
-  max-height: 250px;
+  /* max-height: 250px; */
 }
 
 .circle-bg {

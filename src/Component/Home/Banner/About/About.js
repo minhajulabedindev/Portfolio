@@ -10,19 +10,19 @@ AOS.init();
 
 const About = () => {
   return (
-    <div className="container  my-lg-5 ">
-      <div className="row my-lg-5">
+    <div className="container who  my-lg-5 ">
+      <div className="row my-lg-5 ">
         {" "}
         <div className="texts p-lg-5">
           <h1 spellcheck="false" contenteditable="true">
-            About Me
+            About <span className="colors">Me</span>
           </h1>
           <h6 id="myDIV"> Who I Am</h6>
         </div>
-        <div className="col-lg-6" data-aos="fade-up-right" data-aos-duration="1000">
+        <div className="col-lg-6 " data-aos="fade-up-right" data-aos-duration="1500">
           <img className="w-75   " src="https://i.ibb.co/fkZhFSg/Optimized-atiqur.jpg"></img>{" "}
         </div>
-        <div className="col-lg-6 " data-aos="fade-up-left" data-aos-duration="1000">
+        <div className="col-lg-6 " data-aos="fade-up" data-aos-duration="1500">
           <div className="mt-lg-5 pt-5 pt-lg-5 text">
             <p>
               I am Minhajul Abedin a junior web developer. I have gained knowledge on the subjects HTML, CSS, Javascript , React, MongoDB, GitHub,

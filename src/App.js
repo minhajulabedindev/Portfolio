@@ -7,7 +7,7 @@ import Navigation from "./Component/Shared/Navigation/Navigation";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App background">
       <BrowserRouter>
         <Navigation></Navigation>
         <Routes>

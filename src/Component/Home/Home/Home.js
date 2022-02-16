@@ -11,15 +11,11 @@ import Banner from "../Banner/Banner";
 const Home = () => {
   return (
     <div>
-      {/* <Aos></Aos> */}
-      <AnimationOnScroll animateIn="fadeIn">
-        {" "}
-        <Banner></Banner>
-      </AnimationOnScroll>
+      <Aos></Aos>
 
-      <About></About>
+      <Banner></Banner>
 
-      {/* <Skill></Skill> */}
+      <Skill></Skill>
     </div>
   );
 };
