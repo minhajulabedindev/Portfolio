@@ -13,7 +13,7 @@
 
 .navber {
   background: rgba(5, 5, 5, 0.342);
-  border-radius: 10%;
+  border-radius: 15px;
   margin-left: 5px;
 }
 @media only screen and (max-width: 990px) {
@@ -28,4 +28,7 @@
 .navber:hover,
 .navber:active {
   color: #00f329;
+}
+html {
+  scroll-behavior: smooth;
 }

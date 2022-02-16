@@ -13,8 +13,8 @@ const About = () => {
     <div className="container who pb-lg-5 usercard  ">
       <div className="row ">
         {" "}
-        <div className="texts p-lg-5">
-          <h1 className="p-lg-5 mb-lg-5" spellcheck="false" contenteditable="true">
+        <div className="texts p-5">
+          <h1 data-aos="zoom-in" data-aos-duration="1000" className="p-lg-5 mb-lg-5" spellcheck="false" contenteditable="true">
             About <span className="colors">Me</span>
           </h1>
         </div>

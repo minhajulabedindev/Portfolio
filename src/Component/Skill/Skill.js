@@ -6,13 +6,15 @@ import "./Skill.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
+
 const Skill = () => {
   return (
-    <div className="  background my-5 p-lg-5 no-gutters over">
+    <div className="  background my-5  no-gutters over">
       <div className="container py-lg-5">
-        <div className="py-5">
-          <h3 className="p-4 ">
-            <span className="colors">My </span>Skill
+        <div className="py-5 mb-lg-5">
+          <h3 data-aos="zoom-in" data-aos-duration="1000" className="p-4 ">
+            <span className="colors">My </span>
+            Skill
           </h3>
         </div>{" "}
         <div className="row row-cols-3 row-cols-lg-5 g-2 g-lg-3">
