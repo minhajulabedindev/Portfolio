@@ -9,7 +9,7 @@ AOS.init();
 const Skill = () => {
   return (
     <div className="  background my-5 p-lg-5 no-gutters over">
-      <div className="container">
+      <div className="container py-lg-5">
         <div className="py-5">
           <h3 className="p-4 ">
             <span className="colors">My </span>Skill
